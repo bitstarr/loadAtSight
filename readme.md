@@ -7,14 +7,14 @@ A little bit code is taken from [Ajax-include pattern](https://github.com/filame
 ## Context
 You build a responsive website and want to load secondary information (sidebars, etc.) when they are really needed.
 
-Let's think of a mobile first responsive website.
-    * There is a box that you won't show on small screens.
-    * The user turns its device or uses a mid sized screen.
-    * Now there is enough space for this box.
-    * Because you like performance, you don't load the content of the box for every user.
-    * Instead you load it when the box is (or becomes) visible.
+Let's think about a mobile first responsive website:
+ * There is a box that you won't show on small screens.
+ * The user turns its device or uses a mid sized screen.
+ * Now there is enough space for this box.
+ * Because you like performance, you don't load the content of the box for every user.
+ * Instead you load it when the box is (or becomes) visible.
 
-So you initial page load is less and you don't need to load bits you won't use on small screens. Great itn't it?
+So you initial page load is less and you don't need to load bits you won't use on small screens. Great, isn't it?
 
 ## Usage
 
@@ -55,4 +55,4 @@ MIT
 
 You could also use [Ajax-include pattern](https://github.com/filamentgroup/Ajax-Include-Pattern/) in combination with [bindWithDelay](https://github.com/bgrins/bindWithDelay/) but i preferred to use less code for this particular job.
 
-This plugin is no a jack of all trades. Its usage ist bound to a well definded case. Feel free to spin this idea forward and fork the project.
+This plugin is no a jack of all trades. Its usage ist bound to a well definded case - to load two or three boxes on demand. Feel free to spin this idea forward and fork the project.
