@@ -1,17 +1,25 @@
 {
     "name": "loadAtSight",
     "version": "0.1.0",
-    "homepage": "https://github.com/bitstarr/loadAtSight",
+    "homepage": "https://github.com/bitstarr/loadAtSight.git",
     "description": "Load AJAX content if an element is visible or becomes visible (depending on an event).",
     "main": "loadatsight.js",
     "keywords": [
-        "Responsive",
-        "JavaScript"
+        "responsive",
+        "javaScript",
+        "jquery",
+        "plugin"
+        "conditional loading"
     ],
     "authors": [
         "Sebastian Laube <hello@sebastianlaube.de>"
     ],
     "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
     "dependencies": {
         "jquery": ">=1.7"
     }

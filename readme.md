@@ -2,7 +2,7 @@
 
 Load AJAX content if an element is visible or becomes visible (depending on an event).
 
-A little bit code is taken from [Ajax-include pattern](https://github.com/filamentgroup/Ajax-Include-Pattern/) 
+A little bit code is taken from [Ajax-include pattern](https://github.com/filamentgroup/Ajax-Include-Pattern/).
 
 ## Context
 You build a responsive website and want to load secondary information (sidebars, etc.) when they are really needed.
@@ -50,8 +50,6 @@ For example a technique as Matt Perry mentions [in a comment at CSS-Tricks](http
 
 ## Licence
 MIT
-
-----------
 
 ## Thoughts
 
