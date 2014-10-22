@@ -38,6 +38,9 @@ So you initial page load is less and you don't need to load bits you won't use o
 
     $('.js-loadatsight').loadAtSight();
 
+## Bower Installation
+    bower install load-at-sight
+
 ## On reszing
 
 As you might know could it be a performance issue to use the plain resize event. I prefer a custom event which delays a certain time so there will be no fireworks.
