@@ -17,7 +17,6 @@ Let's think about a mobile first responsive website:
 So you initial page load is less and you don't need to load bits you won't use on small screens. Great, isn't it?
 
 ## Usage
-
     <div class="box">
         <div class="offers">
             <ul>
@@ -41,8 +40,18 @@ So you initial page load is less and you don't need to load bits you won't use o
 ## Bower Installation
     bower install load-at-sight
 
-## On reszing
+## Options
+### windowEvents
+On which events of the `window` object should we react.
 
+default: `load`
+
+### loadingClass
+The element will get a CSS class to while the AJAX request runs.
+
+default: `is-loading`
+
+## On reszing
 As you might know could it be a performance issue to use the plain resize event. I prefer a custom event which delays a certain time so there will be no fireworks.
 
 For example a technique as Matt Perry mentions [in a comment at CSS-Tricks](http://css-tricks.com/snippets/jquery/done-resizing-event/#comment-1585739).

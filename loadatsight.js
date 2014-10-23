@@ -2,7 +2,8 @@ jQuery.fn.loadAtSight = function( options ) {
     "use strict";
     // default settings:
     var defaults = {
-            windowEvents: 'load'
+            windowEvents: 'load',
+            loadingClass: 'is-loading'
         },
         placements = [ 'append', 'replace', 'before', 'after' ];
 
@@ -41,11 +42,11 @@ jQuery.fn.loadAtSight = function( options ) {
             jQuery.ajax({
                 url: url,
                 beforeSend: function () {
-                    $el.addClass('is-loading');
+                    $el.addClass( settings.loadingClass );
                 },
                 success: function ( response ) {
                     $el[ placement ]( response );
-                    $el.removeClass('is-loading');
+                    $el.removeClass( settings.loadingClass );
                 }
             });
         });
